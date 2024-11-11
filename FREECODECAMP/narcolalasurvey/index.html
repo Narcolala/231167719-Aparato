@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" 
+          content="IE=edge">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="style.css">
+    <title>
+        Narcolala's Survey
+    </title>
+</head>
+
+<body>
+    <h1>Ryan's Survey</h1>
+
+    <form id="form">
+
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+
+            <input type="text" id="name" 
+                   placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <input type="email" id="email" 
+                   placeholder="Enter your email" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+
+            <input type="text" id="age" 
+                   placeholder="Enter your age" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which of the following best describes you?
+            </label>
+
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>
+                Would you share this to someone you know?
+            </label>
+
+
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" 
+                       name="recommed">Yes
+                  </input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" 
+                       name="recommed">No
+                  </input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" 
+                       name="recommed">Maybe
+                  </input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>Hobbies?
+                <small>(Check all that apply)</small>
+            </label>
+
+            <label for="inp-1">
+                <input type="checkbox" name="inp">Billiards
+                  </input>
+              </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Darts
+                  </input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Gaming
+                  </input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Videography
+                  </input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Soccer
+                  </input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">Basketball
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Badminton
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Football
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Chess
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Dancing
+                  </input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Do you have any suggestions? Leave as blank if none.
+            </label>
+
+            <textarea name="comment" id="comment" 
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>
